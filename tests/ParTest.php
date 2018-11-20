@@ -21,5 +21,16 @@
 
 			$result = $this->par->serPar(4);
 			$this->assertEquals(true,$result);
+			
+			$result = $this->par->serPar(5);
+			$this->assertEquals(true,$result);
+			
+			$result = $this->par->serPar(6);
+			$this->assertEquals(true,$result);
+			
+			
+			$result = $this->par->serPar(7);
+			$this->assertEquals(true,$result);
+			
 		}
 	}
