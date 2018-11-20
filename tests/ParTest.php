@@ -18,7 +18,8 @@
 		
 		public function testserPar()
 		{
-			$result = this->par->serPar(4);
+
+			$result = $this->par->serPar(4);
 			$this->assertEquals(true,$result);
 		}
 	}
