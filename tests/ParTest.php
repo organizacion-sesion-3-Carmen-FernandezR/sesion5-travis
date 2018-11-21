@@ -32,5 +32,8 @@
 			$result = $this->par->serPar(7);
 			$this->assertEquals(false,$result);
 			
+			$result = $this->par->serPar(8);
+			$this->assertEquals(true,$result);
+			
 		}
 	}
